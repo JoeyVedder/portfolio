@@ -1,0 +1,44 @@
+* {
+margin: 0;
+padding: 0;
+}
+header {
+ text-align: center;
+ background-color: #0E8088;
+}
+
+header h1 {
+    padding: 5px;
+}
+
+header p {
+    font-size: 20px;
+    padding: 12px;
+}
+
+nav {
+    display:flex;
+    justify-content: end;
+
+    
+}
+
+nav a {
+    margin: 8px;
+    color: maroon;
+}
+
+#about-me p {
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+#contacts p {
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+#my-portfolio p {
+    border: 3px solid black;
+    border-radius: 8px;
+}
