@@ -43,8 +43,27 @@ main {
     flex-direction:row;
     flex-wrap:wrap;
     justify-content: space-between;
+    
+    
+}
+.glow-textbox {
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 4px;
+    transition: box-shaodw 0.3s ease-in-out;
+}
+
+.glow-textbox:hover {
+    box-shadow: 0 0 10px rgba(0, 128, 255, 0.8);
 }
 
 #my-portfolio h3 {
     border: 2px solid white;
+    
+
 }
+
+footer p {
+    color: rgba(25, 123, 113);
+}
+    
