@@ -43,27 +43,159 @@ main {
     flex-direction:row;
     flex-wrap:wrap;
     justify-content: space-between;
+
     
+} 
+#card-holder a {
+    flex: 1 0 35%;
+    margin:50px;
+    border: 4px solid black;
+    height: 300px;
     
 }
-.glow-textbox {
-    padding: 10px;
-    border: 1px solid purple;
-    border-radius: 4px;
-    transition: box-shaodw 0.3s ease-in-out;
+
+#card-holder a {
+    color: white;
+}
+
+#Project1 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://miro.medium.com/v2/resize:fit:310/0*ZYDCn6eN0BkmY8V-.");
+    background-repeat: no-repeat;
+    background-position: center;
+   
+
+}
+
+#Project2 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://www.shutterstock.com/image-vector/under-construction-yellow-rectangle-warning-260nw-1086747797.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 99.9%;
+
+}
+
+#Project3 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://media.npr.org/assets/img/2017/04/25/istock-115796521-ab56cfd5611f3b604708c444248c91414f648ba4.jpg?s=1100&c=50&f=jpeg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 99.9%;
+
+}
+
+#Project4 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://i.pinimg.com/originals/8f/29/d8/8f29d8b941ae912855a6e2d3f5e24573.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 99.9%;
+
+}
+
+#Project5 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://www.thoughtco.com/thmb/WXYMd7DevHhY13xG05Jdw9Q07mA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/tousled-professor-examining-samples-under-microscope-looking-surprised-597071079-58a3ad145f9b58819c90e3b8.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 99.9%;
+
+}
+
+#Project6 {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://media.gettyimages.com/id/1442799465/video/loading-progress-bar-animation-on-white-background-4k-video-pixel-preloader-downloading.jpg?s=640x640&k=20&c=G6Qg1lMUEXIIojiLjbZm9Fm55r8T7fNx5QcvLj3taIg=");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
 }
 
 .glow-textbox:hover {
-    box-shadow: 0 0 10px rgba(0, 128, 255, 0.8);
+    padding: 10px;
+    border: 1px solid purple;
+    border-radius: 4px;
+    transition: box-shadow 0.3s ease-in-out;
 }
 
-#my-portfolio h3 {
-    border: 2px solid white;
+.glow-textbox:hover {
+    box-shadow:  0 10px rgba(0, 128, 255, 0.8);
+}
+
+#about-me {
+    border: 5px solid cyan;
+ 
     
-
 }
-
-footer p {
-    color: rgba(25, 123, 113);
-}
+#about-me img {
+    height: 205px;
+    width: 200px;
+    position: relative;
+    left: 88%;
     
+    
+}
+#contacts a {
+    color: white;
+}
+
+#contacts {
+
+   background-color:rgb(16, 60, 63);
+}
+
+#contacts p {
+    color: white;
+    text-decoration: underline;
+    
+}
+
+#contacts ul {
+    text-decoration: none;
+   
+}
+/*Thanks to Tommy for the acceptance criteria code*/
+.run-buddy {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://upload.wikimedia.org/wikipedia/commons/e/ef/Programming_code.jpg");
+  }
+  .led-wall {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://upload.wikimedia.org/wikipedia/commons/e/ef/Programming_code.jpg");
+  }
+  .react-calc {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://upload.wikimedia.org/wikipedia/commons/e/ef/Programming_code.jpg");
+  }
+  .pastel-puzzles {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://upload.wikimedia.org/wikipedia/commons/e/ef/Programming_code.jpg");
+  }
+  .surf-report {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.7)), url("https://upload.wikimedia.org/wikipedia/commons/e/ef/Programming_code.jpg");
+  }
+  
+  @media screen and (max-width: 768px) {
+    main,
+    header nav ul,
+    #card-holder,
+    header {
+      flex-direction: column;
+      justify-content: center;
+      min-height: 10px;
+    }
+    * {
+      min-height: 100px;
+    }
+    .minHeight {
+      min-height: 100px;
+    }
+  
+    #hero h2 {
+      font-size: medium;
+    }
+  
+    nav a {
+      border-bottom: none;
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+      .resizeable-element {
+          min-height: 200px; /* New min-height for smaller screens */
+      }
+      .flex-item {
+        min-height: 200px;
+      }
+  }
